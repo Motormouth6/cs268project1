@@ -1,9 +1,10 @@
 nav {
-    background:rgba(0,0,0,0.8);
+    background:rgb(0,0,0);
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
+ 
   }
 
 nav a {
@@ -14,13 +15,18 @@ nav a {
     padding: 24px 26px;
     text-decoration: none;
     font-size: 20px;
-    font-family:rock salt;
+    font-family: aleo;
+    border-left: 1px solid white;
   }
 
 nav a:hover {
     background: #ddd;
     color: black;
   }
+
+white-border-left {
+  border-left: 1px solid white;
+}
 
 body {
     margin: 0;
@@ -30,7 +36,7 @@ body {
     background-size:cover;
     background-position: center;
     overflow: hidden;
-    font-family: rock salt;
+    font-family: aleo;
   }
 
 #overlayText {
@@ -41,11 +47,11 @@ body {
     top: 8px;
     left: 20px;
     font-size: 2.3vw;
-    font-family:rock salt;
+    font-family: aleo;
 }
 
 .title {
-    margin-top: 90px;
+    margin-top: 135px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -67,4 +73,41 @@ h2 {
 
 p {
     font-family: aleo;
+}
+
+.white-space {
+  white-space: pre;
+}
+
+.show-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.show-list {
+    list-style-type: none;
+    padding: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.show-website {
+    border: 2px solid black;
+    padding: 6px;
+    color: black;
+}
+
+.show-website:visited {
+    color: black;
+}
+
+.show-bottom-border {
+    border-bottom: 2px solid white;
 }
