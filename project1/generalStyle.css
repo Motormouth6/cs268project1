@@ -1,92 +1,111 @@
 nav {
     background:rgb(0,0,0);
     overflow: hidden;
-    position: fixed;
-    top: 0;
     width: 100%;
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
   }
-
-nav a {
-    float: right;
-    display: block;
+   
+  header {
+    background-color: rgb(0,0,0);
+  }
+   
+  nav a {
+    flex-grow: 1;
+    float: none;
     color: white;
     text-align: center;
-    padding: 24px 26px;
+    padding: 18px 20px;
     text-decoration: none;
     font-size: 20px;
     font-family: aleo;
     border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white
   }
-
-nav a:hover {
+   
+  nav a:last-child {
+    border-right: 1px solid white;
+  }
+   
+  nav a:hover {
     background: #ddd;
     color: black;
   }
-
-white-border-left {
+   
+  white-border-left {
   border-left: 1px solid white;
-}
-
-body {
+  }
+   
+  body {
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: gray;
     background-size:cover;
     background-position: center;
-    overflow: hidden;
+    
     font-family: aleo;
   }
-
-#overlayText {
-    background-color: none;
-    position: fixed;
+   
+  #overlayText {
+    background-color: rgb(0,0,0);
     z-index:100;
     color:white;
-    top: 8px;
-    left: 20px;
     font-size: 2.3vw;
     font-family: aleo;
-}
-
-.title {
-    margin-top: 135px;
+    font-size: 40px;
+    text-align: center;
+    border-top: solid 1px white;
+    padding: 15px;
+  }
+   
+  .title {
+    margin-top: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+   
+  .centered {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-}
-
-.title h1 {
+  }
+   
+  .title h1 {
     text-align: center;
-}
-
-h1 {
+  }
+   
+  h1 {
     font-size: 26px;
-}
-
-h2 {
+  }
+   
+  h2 {
     font-size: 18px;
     font-family: aleo;
-}
-
-p {
+  }
+   
+  p {
     font-family: aleo;
-}
-
-.white-space {
+  }
+   
+  .white-space {
   white-space: pre;
-}
-
-.show-container {
+  }
+  /*
+  .show-container {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: row;
-}
-
-.show-list {
+  }
+  */
+  .show-list {
     list-style-type: none;
     padding: 10px;
     border-top: 2px solid white;
@@ -96,18 +115,92 @@ p {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-}
-
-.show-website {
+  }
+  /*
+  .show-website {
     border: 2px solid black;
     padding: 6px;
     color: black;
-}
-
-.show-website:visited {
+  }
+  */
+  .show-website:visited {
     color: black;
-}
-
-.show-bottom-border {
+  }
+  .show-website:link {
+    color: black
+  }
+   
+  .show-website:hover {
+    color: white;
+  }
+   
+  .show-bottom-border {
     border-bottom: 2px solid white;
-}
+  }
+   
+  .show-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+  }
+   
+  .show-item {
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 15px;
+   
+  }
+   
+  .contact-title {
+    transition: all 2s ease ;
+  }
+   
+  form {
+    margin-top: 0px;
+  }
+   
+  .form-control {
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size:   18px;
+    margin-bottom: 16px;
+  }
+   
+  input {
+    height: 45px;
+  }
+   
+  ::placeholder {
+    color: white;
+    opacity: 60%;
+  }
+   
+  form .submit {
+    background: black;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+   
+  form .submit:active {
+    background: white;
+    color: black;
+  }
+   
+  /*
+  <div style="display:block;position:absolute;bottom:0px;">
+  <iframe style="border: 0; width: 500px; height: 42px;"
+      src="https://bandcamp.com/EmbeddedPlayer/track=199861310/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/"
+      seamless><a href="http://properlygrounded.bandcamp.com/track/complain%22%3E%3EComplain by Properly Grounded</a>
+  </div>
+  */
+  

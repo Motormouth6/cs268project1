@@ -1,65 +1,79 @@
 <!DOCTYPE html>
-
+ 
 <html lang="en">
-
+ 
 <head>
-
+ 
     <title>Properly Grounded - Contact</title>
     <link href="https://fonts.googleapis.com/css?family=Aleo%7CRock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="generalStyle.css">
-
+    <link rel="icon" href="images/properlyFavicon.jpg" type="image/gif" sizes="16x16">
+ 
 </head>
-
-
+ 
+ 
 <body>
-
+ 
     <header>
         <div id='overlayText'>Properly Grounded</div>
         <nav class="navbar">
-            <a href="contact.html"><u>Contact</u></a>
-            <a href="merch.html">Merch</a>
-            <a href="photos.html">Photos</a>
-            <a href="shows.html">Shows</a>
-            <a href="music.html">Music</a>
-            <a href="about.html">About</a>
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="music.html">Music</a>
+            <a href="shows.html">Shows</a>
+            <a href="photos.html">Photos</a>
+            <a href="merch.html">Merch</a>
+            <a href="contact.html"><u>Contact</u></a>
         </nav>
     </header>
-
-    <div class="title">
+ 
+    <div class="title contact-title">
         <h1>Contact us!</h1>
+        <h2>We'd love to hear from you!</h2>
     </div>
-    <h2>We'd love to hear from you!</h2>
-    <p>Email us at <a href="mailto:officialproperlygrounded@gmail.com">officialproperlygrounded@gmail.com</a></p>
-
+ 
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="mailto:officialproperlygrounded@gmail.com" enctype="text/plain">
+        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+        <br>    
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+        <br>
+            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+            <br>
+            <input type="submit" class="form-control submit" value="Send Message">
+        </form>
+    </div>
+ 
+    <p>Directly email us at <a href="mailto:officialproperlygrounded@gmail.com">officialproperlygrounded@gmail.com</a></p>
+ 
     <table align="center">
-
+ 
         <tr>
             <td>
                 <a href="https://www.instagram.com/officialproperlygrounded/?hl=en" target="_blank">
                     <img src="images/instagram.png" style="width:42px;height:42px;border:0">
                 </a></td>
-
+ 
             <td>
                 <a href="https://www.facebook.com/ProperlyGrounded/" target="_blank">
                     <img src="images/facebook.png" style="width:42px;height:42px;border:0">
                 </a></td>
-
+ 
             <td>
                 <a href="https://twitter.com/properlygroundd" target="_blank">
                     <img src="images/twitter.png" style="width:42px;height:42px;border:0">
                 </a></td>
-
+ 
             <td>
                 <a href="https://www.youtube.com/channel/UCC_RUIS72Hd_HibMqj-peCw" target="_blank">
                     <img src="images/youtube.png" style="width:42px;height:42px;border:0">
                 </a></td>
-
+ 
         </tr>
-
+ 
     </table>
-
-
+ 
+ 
 </body>
-
+ 
 </html>
