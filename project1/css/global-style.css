@@ -89,4 +89,9 @@ p {
     font-family: aleo;
     font-size: 20px;
   }
-   
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  border: 0;
+}
