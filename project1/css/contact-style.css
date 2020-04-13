@@ -1,0 +1,59 @@
+.contact-title {
+    animation: fadein 2s;
+    transition: all 2s ease;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+   
+  form {
+    margin-top: 0px;
+  }
+   
+  .form-control {
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size:   18px;
+    margin-bottom: 16px;
+  }
+   
+  input {
+    height: 45px;
+  }
+   
+  ::placeholder {
+    color: white;
+    opacity: 60%;
+  }
+   
+  form .submit {
+    background: black;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+   
+  form .submit:hover {
+    background: white;
+    color: black;
+  }
+
+  .contact-table {
+    margin-left: auto;
+    margin-right: auto;
+  }

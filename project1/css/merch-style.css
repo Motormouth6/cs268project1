@@ -1,0 +1,34 @@
+.merch-table {
+    margin-top: 100px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.merch-image {
+    width: 400px;
+    transform: rotate(90deg);
+}
+
+.merch-tr {
+  padding: 0px;
+}
+
+.merch-td {
+    padding: 40px;
+}
+
+.buy-button {
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.buy-button:hover {
+    background-color: white;
+    color: black;
+}
