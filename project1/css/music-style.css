@@ -7,3 +7,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 600px) {
+    .complain-embed {
+        width: 50%;
+        height: 50%;
+    }
+
+}
