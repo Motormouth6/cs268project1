@@ -19,7 +19,6 @@ nav a {
     padding: 18px 20px;
     text-decoration: none;
     font-size: 20px;
-    font-family: aleo;
     border-left: 1px solid white;
     border-top: 1px solid white;
     border-bottom: 1px solid white
@@ -41,8 +40,7 @@ body {
     background-color: gray;
     background-size:cover;
     background-position: center;
-    
-    font-family: aleo;
+    font-family: Verdana, Geneva, sans-serif;
   }
    
 #overlayText {
@@ -50,7 +48,6 @@ body {
     z-index:100;
     color:white;
     font-size: 2.3vw;
-    font-family: aleo;
     font-size: 40px;
     text-align: center;
     border-top: solid 1px white;
@@ -82,12 +79,11 @@ h1 {
    
 h2 {
     font-size: 22px;
-    font-family: aleo;
   }
    
 p {
-    font-family: aleo;
     font-size: 20px;
+    font-family: Georgia, serif;
   }
 
 .logo-icon {

@@ -10,7 +10,7 @@
 }
 
 .merch-tr {
-  padding: 0px;
+    padding: 0px;
 }
 
 .merch-td {
@@ -26,6 +26,7 @@
     color: white;
     position: relative;
     z-index: 1;
+    font-family: Georgia, serif;
 }
 
 .buy-button:hover {
