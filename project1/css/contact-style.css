@@ -69,10 +69,16 @@
     .form-control {
       width: 300px;
     }
+    ::placeholder {
+      font-size: 2vw
+    }
   }
 
   @media (max-width: 500px) {
     .form-control {
       width: 200px;
+    }
+    ::placeholder {
+      font-size: 2vw
     }
   }
