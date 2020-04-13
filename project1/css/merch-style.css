@@ -1,19 +1,16 @@
-.merch-table {
-    margin-top: 100px;
-    margin-left:auto; 
-    margin-right:auto;
-}
-
 .merch-image {
-    width: 400px;
+    width: 100%;
     transform: rotate(90deg);
 }
 
-.merch-tr {
-    padding: 0px;
+.merch-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
 }
 
-.merch-td {
+.merch-item {
     padding: 40px;
 }
 
@@ -32,4 +29,44 @@
 .buy-button:hover {
     background-color: white;
     color: black;
+}
+
+@media (max-width: 600px) {
+    .merch-container {
+        margin-top: 50px;
+        
+      }
+
+    .item1 {
+        grid-area: 1 / 1;
+    }
+
+    .item2 {
+        grid-area: 3 / 1;
+    }
+
+    .item3 {
+        grid-area: 2 / 1;
+    }
+
+    .item4 {
+        grid-area: 4 / 1;
+    }
+
+    .item5 {
+        grid-area: 5 / 1;
+    }
+
+    .item6 {
+        grid-area: 7 / 1;
+    }
+
+    .item7 {
+        grid-area: 6 / 1;
+    }
+
+    .item8 {
+        grid-area: 8 / 1;
+    }
+
 }

@@ -59,3 +59,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .contact-form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 600px) {
+    .form-control {
+      width: 400px;
+    }
+  }
