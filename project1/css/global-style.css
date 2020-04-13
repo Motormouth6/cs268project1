@@ -121,3 +121,40 @@ p {
   }
 
 }
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2.5vw;
+  }
+
+  h2 {
+      font-size: 2.2vw;
+  }
+
+  p {
+      font-size: 2vw;
+  }
+
+  header {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  nav a {
+    font-size: 2.5vw;
+    padding: 14px 16px;
+  }
+
+  #overlay-text {
+    font-size: 5vw;
+  }
+
+  .title {
+    margin-top: 160px;
+  }
+
+}
+

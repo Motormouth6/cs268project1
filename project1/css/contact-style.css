@@ -67,6 +67,12 @@
 
   @media (max-width: 600px) {
     .form-control {
-      width: 400px;
+      width: 300px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .form-control {
+      width: 200px;
     }
   }
