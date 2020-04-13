@@ -153,7 +153,17 @@ nav {
   }
    
   .contact-title {
+    animation: fadein 2s;
     transition: all 2s ease;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
    
   form {
@@ -260,4 +270,8 @@ nav {
   .complain-embed {
       width: 500px;
       height: 500px;
+  }
+
+  .home-image {
+      width: 700px;
   }
